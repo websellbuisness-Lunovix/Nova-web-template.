@@ -15,7 +15,7 @@ The **Pro Version** includes everything in this starter template, plus:
 - **Priority Support**
 - **Future Updates & Extra Components**
 
-**[ Buy the Pro Version on Gumroad](YOUR_GUMROAD_LINK_HERE)**
+**[Buy the Pro Version on Gumroad](https://webseller6.gumroad.com/l/nova-template)**
 
 ---
 ## License
