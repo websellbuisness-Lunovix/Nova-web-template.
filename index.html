@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nova — Premium SaaS Landing Page (Demo)</title>
+<style>
+:root {
+  --primary-white: #ffffff;
+  --silver-grey: #a1a1a1;
+  --dark-graphite: #080808;
+  --border-glass: rgba(255,255,255,0.1);
+  --glass-bg: rgba(255,255,255,0.02);
+  --radius-lg: 24px;
+  --ease-premium: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: radial-gradient(circle at 50% -10%, rgba(255,255,255,0.05), transparent 50%), var(--dark-graphite);
+  color: var(--primary-white);
+  overflow-x: hidden;
+}
+
+.container { max-width: 1200px; margin: auto; padding: 0 24px; }
+
+h1, h3 {
+  background: linear-gradient(180deg, #ffffff 60%, #999999 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero { padding: 100px 0; text-align: center; }
+
+/* THE GLASSY CARDS YOU WANTED */
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; margin-top: 60px; }
+
+.glass-card {
+  padding: 40px; 
+  background: var(--glass-bg); 
+  border: 1px solid var(--border-glass);
+  border-radius: var(--radius-lg); 
+  transition: all 0.4s var(--ease-premium);
+  text-align: left;
+}
+
+.glass-card:hover { 
+  transform: translateY(-8px); 
+  border-color: rgba(255,255,255,0.3); 
+  background: rgba(255,255,255,0.05);
+}
+
+.btn {
+  padding: 18px 40px; border-radius: 100px; cursor: pointer;
+  font-weight: 800; text-decoration: none; display: inline-block;
+  transition: 0.3s; border: 1px solid var(--border-glass);
+  color: #fff;
+}
+
+.btn-primary { background: #fff; color: #000; border: none; }
+
+.footer-cta {
+    margin-top: 100px;
+    padding: 60px;
+    border-top: 1px solid var(--border-glass);
+    text-align: center;
+}
+</style>
+</head>
+<body>
+
+<nav class="container" style="padding: 20px 0; display: flex; justify-content: space-between; align-items: center;">
+  <strong style="letter-spacing: 2px;">NOVA</strong>
+  <a href="YOUR_GUMROAD_LINK" class="btn" style="padding: 10px 20px; font-size: 12px;">Get Full System</a>
+</nav>
+
+<section class="container hero">
+  <h1>Elite Design Authority.</h1>
+  <p style="color: var(--silver-grey); max-width: 600px; margin: 20px auto;">A high-end SaaS landing page system. This demo showcases the UI components and micro-interactions available in the full version.</p>
+  
+  <div class="grid">
+      <div class="glass-card">
+          <h3>Glassmorphism UI</h3>
+          <p style="color: var(--silver-grey);">Sophisticated transparency layers that build trust with high-value users.</p>
+      </div>
+      <div class="glass-card">
+          <h3>Refined Motion</h3>
+          <p style="color: var(--silver-grey);">Every element responds with premium physics and smooth hover states.</p>
+      </div>
+      <div class="glass-card">
+          <h3>Pro Layouts</h3>
+          <p style="color: var(--silver-grey);">Optimized for conversion and speed. Zero dependencies, just pure code.</p>
+      </div>
+  </div>
+</section>
+
+<section class="footer-cta container">
+    <h2>Unlock the Full System</h2>
+    <p style="color: var(--silver-grey); margin-bottom: 30px;">The full version includes the 3-tier pricing section, FAQ, and commercial license.</p>
+    <a href="YOUR_GUMROAD_LINK" class="btn btn-primary">Purchase Full Template on Gumroad</a>
+</section>
+
+</body>
+</html>
