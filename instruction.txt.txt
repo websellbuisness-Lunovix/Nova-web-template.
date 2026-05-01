@@ -1,0 +1,73 @@
+NOVA SYSTEM — COMPLETE EDITING GUIDE
+by Lunovix Studio
+
+Thank you for choosing Nova. This is a premium, zero-dependency SaaS landing page system designed for fast deployment and high-end design authority.
+
+1. GETTING STARTED
+
+Extract the ZIP: Unzip this folder to your computer.
+
+Open the File: Locate index.html.
+
+How to Edit: Right-click index.html and select "Open with..." then choose a text editor like VS Code, Sublime Text, or Notepad.
+
+Preview: To see your changes, simply double-click index.html to open it in your browser.
+
+2. EDITING TEXT & CONTENT
+
+Headings: Search for <h1> or <h3> tags to change your main titles.
+
+Paragraphs: Search for <p> tags to update your descriptions.
+
+Buttons: Find the text inside <button> tags to change your Call-to-Action (CTA).
+
+3. CUSTOMIZING BUTTON LINKS
+To make a button go to your checkout or sign-up page, wrap it in an anchor tag like this:
+<a href="your-link-here.com"><button class="btn btn-primary">Get Started</button></a>
+
+4. EDITING THE UI PREVIEW (HERO SECTION)
+To move or tilt the floating "Silver Cards" in the top section:
+
+Find the div with class ui-mock-card.
+
+To Move: Change the top: and left: percentage values in the style attribute.
+
+To Tilt: Change the rotate(-5deg) value (e.g., use 5deg to tilt it the other way).
+
+5. CHANGING BRAND COLORS
+At the very top of the index.html file, find the :root section:
+
+primary-white: The highlight color.
+
+dark-graphite: The main background color.
+Update these hex codes to match your brand instantly.
+
+6. DEPLOYMENT (GOING LIVE)
+Once you are ready to launch, upload your index.html (and any image folders) to:
+
+Netlify (Recommended: Simple drag-and-drop)
+
+Vercel
+
+GitHub Pages
+
+7. SUPPORT & CUSTOM BUILDS
+If you run into issues or would like Team Lunovix to build a custom version for you, please contact us:
+
+Email: websellbuisness@gmail.com
+
+Subject: Nova Support - [vishnu]
+
+Build fast. Launch faster.
+— Team Lunovix Studio
+
+How to organize your ZIP file:
+When you create your final ZIP for Gumroad, it should look exactly like this:
+
+index.html (The actual website code)
+
+INSTRUCTION.txt (The text I just gave you)
+
+LICENSE.txt (Optional: A simple note saying "For personal and commercial use; no reselling.")
+
+Assets/ (A folder containing any images or icons you used)
